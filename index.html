@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK-MailChecker</title>
+    <link rel="icon" href="ICON-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+<!--navigation-->
+<nav>
+   
+    <img src="ICON-removebg-preview.png" alt="logo">
+    <h2>MailChecker</h2>
+    <div class="navigation">
+        
+        <ul>
+            
+            <li>
+                <img id="cross" src="cross-removebg-preview.png" alt="">
+             <a href="#home">Home</a>
+             <a href="#features">Features</a>
+             <a href="https://rkscompany.github.io/RK-CV/index.html">About Developer</a>
+            </li>
+                                        
+        </ul>
+          <img  id="menu" src="menu-removebg-preview.png" alt="">
+    </div>
+</nav>
+
+<section id="home">
+    <h2>Keep Your Inbox Clean and Organized</h2>
+    <p>Email verification is an essential practice that ensures the reliability, security, and effectiveness of email communication. Email verification is an ongoing process, and it's important to regularly update and verify your email lists to maintain the benefits. </p>
+   
+    <div class="btn">
+
+        <a class="blue" href="#">LEARN MORE</a>
+      
+
+    </div>
+</section>
+
+
+<section id="features">
+    <h1>Awesome Features</h1>
+    <p><hr>The best time for a new beginning is now , Lets come and join with us</p>
+    <div class="fea-base">
+        <div class="fea-box">
+            
+            <h3>Real-Time Email Verification</h3>
+            <p>
+                MailCheckr verifies email addresses in real-time to ensure your emails are delivered to the right person.</p>
+        </div>
+        <div class="fea-box">
+            
+            <h3>Syntax and Domain Check</h3>
+            <p>
+                MailCheckr checks for syntax errors and verifies the domain of the email address to ensure it's valid.</p>
+        </div>
+    </div>
+
+
+</section>
+<section id="checker">
+<center><hr></center>
+<h1 class="h1">Check Email Syntax</h1>
+
+<center> <input type="text" id="emailInput" placeholder="Enter email address"></center>
+
+<center><button onclick="checkEmail()">Check</button></center>
+
+<center><p id="result"></p></center>
+
+<center><hr></center>
+
+</section>
+
+<footer>
+    <div class="tool">
+    <h2>Mail Checker</h2>
+    <p>improve data quality, and enhance your email deliverability. It's an essential step toward maintaining a healthy email marketing strategy and achieving successful communication with your audience.</p>
+    </div>
+
+    <div class="tool2">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="https://rkscompany.github.io/RK-CV/index.html">About Developer</a></li>
+            <li><a href="#">Pricing: FREE</a></li>
+            <li><a href="www.email.com">contact : Khandelwalraghav364@gmail.com</a></li>
+
+        </ul>
+    </div>
+    <hr>
+    <p class="rights">All rights reserved.</p>
+    
+</footer>
+
+
+<script>
+
+    $('#menu').click(function(){
+        $(' nav .navigation ul li').addClass('active')
+    });
+    $('#cross').click(function(){
+        $(' nav .navigation ul li').removeClass('active')
+    });
+
+</script>
+
+
+<script src="script.js"></script>
